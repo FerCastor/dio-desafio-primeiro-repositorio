@@ -32,7 +32,7 @@
 - git push origin master: Empurra o repositório local para o repositório remoto;
             -----
 
--git pull origin master: Mescla o repositório remoto com o repositório local;
+- git pull origin master: Mescla o repositório remoto com o repositório local;
             -----
 
 - git clone link_do_git: Clona um repositório do github pro nosso repositório local;
