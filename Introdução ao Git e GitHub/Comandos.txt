@@ -1,0 +1,55 @@
+   ***  Comandos GIT  ***
+
+- git init: Iniciar o repositório
+
+------------------------------------------------------------------
+
+- git add nomeArquivo: Mover arquivos e começar o versionamento (pode-se utilizar um * ou . no lugar do nomeArquivo, assim seleciona-se todos os arquivos modificados existentes para commitar);
+
+------------------------------------------------------------------
+
+- git commit -m "escreva_a_mensagem_identificação": Criar commit;
+
+------------------------------------------------------------------
+
+- ls: Listar os repositórios existentes na pasta atual;
+
+------------------------------------------------------------------
+
+- ls -a: Listar os repositórios ocultos existentes na pasta atual;
+
+------------------------------------------------------------------
+
+- git status: Auxilia o monitoramento dos status dos arquivos;
+
+------------------------------------------------------------------
+
+- git restore --staged nome_do_arquivo: Voltar o estado dos arquivos para "Unstaged", ou seja, retirar os arquivos da área "Staged";
+
+------------------------------------------------------------------
+
+- git remote add origin link_do_repositorio: Identifica a origem do repositório;
+
+------------------------------------------------------------------
+
+- git remote -v: Trás os repositórios remotos na qual o repositório selecionado está apontado;
+
+------------------------------------------------------------------
+
+- git push origin master: Empurra o repositório local para o repositório remoto;
+
+------------------------------------------------------------------
+
+-git pull origin master: Mescla o repositório remoto com o repositório local;
+
+------------------------------------------------------------------
+
+- git clone link_do_git: Clona um repositório do github pro nosso repositório local;
+
+========================================================================================
+
+   ***   Comandos Windows   *** 
+
+- mkdir nome_do_repositorio: criar repositório;
+
+- echo > nome_do_arquivo.extensão: cria um novo arquivo no formato declarado;
